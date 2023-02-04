@@ -7,12 +7,13 @@ export const HomePage = () => {
     const count = useSelector((state) => state.counter.value)
     const dispatch = useDispatch()
     return(
-    <div className="container mx-auto">
-        <h1 className="font-bold">Hay redux toolkit, vite, Font awesome, React router dom </h1>
+    <div className="container mx-auto flex flex-col justify-center items-center h-screen">
+        <h1 className="font-bold mb-10 uppercase mulishBold text-3xl">Redux toolkit, vite, Font awesome, React router dom </h1>
+        <h4 className="font-bold mb-10 uppercase mulishRegular text-2xl">Redux toolkit, vite, Font awesome, React router dom </h4>
         <div>
             <button
                 aria-label="Increment value"
-                className="bg-cyan-500 text-white p-3 rounded"
+                className="bg-cyan-500 text-white p-3 rounded mulishLight"
                 onClick={() => dispatch(increment())}
             >
                <FontAwesomeIcon icon={faPlus} /> Increment
@@ -21,7 +22,7 @@ export const HomePage = () => {
             <button
                 aria-label="Decrement value"
                 onClick={() => dispatch(decrement())}
-                className="bg-cyan-500 text-white p-3 rounded"
+                className="bg-cyan-500 text-white p-3 rounded  mulishLight"
             >
               <FontAwesomeIcon icon={faMinus} />  Decrement
             </button>

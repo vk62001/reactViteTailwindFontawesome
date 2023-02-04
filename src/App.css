@@ -1,3 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.mulishBold{
+    font-family: "mulishBold";
+}
+
+.mulishRegular{
+    font-family: "mulishRegular";
+}
+
+.mulishLight{
+    font-family: "mulishLight";
+}

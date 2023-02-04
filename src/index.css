@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "MulishBold";
+    src: local("MulishBold"),
+        url("./assets/fonts/Mulish-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "MulishRegular";
+    src: local("MulishRegular"),
+        url("./assets/fonts/Mulish-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MulishLight";
+    src: local("MulishLight"),
+        url("./assets/fonts/Mulish-Light.ttf") format("truetype");
+    font-weight: lighter;
+}

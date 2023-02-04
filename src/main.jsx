@@ -6,6 +6,10 @@ import { BrowserRouter } from "react-router-dom";
 import { Provider } from 'react-redux'
 import { store } from './store/store';
 
+import './assets/fonts/Mulish-Bold.ttf';
+import './assets/fonts/Mulish-Light.ttf';
+import './assets/fonts/Mulish-Regular.ttf';
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Provider store={store}>
     <BrowserRouter>
