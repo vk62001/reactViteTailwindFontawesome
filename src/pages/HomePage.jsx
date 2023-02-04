@@ -9,7 +9,7 @@ export const HomePage = () => {
     return(
     <div className="container mx-auto flex flex-col justify-center items-center h-screen">
         <h1 className="font-bold mb-10 uppercase mulishBold text-3xl">Redux toolkit, vite, Font awesome, React router dom </h1>
-        <h4 className="font-bold mb-10 uppercase mulishRegular text-2xl">Redux toolkit, vite, Font awesome, React router dom </h4>
+        <h4 className="font-bold mb-10 uppercase mulishRegular text-2xl">y tambien custom fonts </h4>
         <div>
             <button
                 aria-label="Increment value"
